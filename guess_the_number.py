@@ -10,9 +10,6 @@ intGuess = int(userGuess)
 
 #Python automatically converts user input to a str, convert to int
 #Check to make sure the user input is an integar
-
-#if type(intGuess) == ValueError:
-    #print("I asked for a number you dingus, try again!")
     
 while intGuess != correctNumber:
     try:
